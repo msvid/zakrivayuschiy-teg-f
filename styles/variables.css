@@ -1,1 +1,23 @@
+:root {
+    --main-font: 'Inter';
+    --accent-font: 'PressStart2P';
+    --title-weight: 715;
+    --text-weight: 410;
+    --main-text-size: 18px;
+    --main-color: #000;
+    --hover-button-color: #fff;
+    --label-text-color: #fff;
+    --hero-padding: clamp(120px, calc(120px + 8 * (100vw - 375px) / 1065), 130px);;
+    --hero-size: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
+    --header-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+    --block-width: clamp(375px, calc(375px + 325 * (100vw - 375px) / 1065), 700px);
+    --bg-gradient: repeating-linear-gradient(#d3d3d3 0px 2px, transparent 2px 4px),
+                   repeating-linear-gradient(90deg, #d3d3d3 0px 2px, transparent 2px 4px),
+                   linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+    --bg-color: #fff;
+    --animation-contour-color: #000;
+    --animation-fill-color: #FF0000;
+    --animation-sparks-color: #FF0000;
+}
+
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
