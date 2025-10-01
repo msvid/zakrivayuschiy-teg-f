@@ -7,7 +7,7 @@
     --main-color: #000;
     --hover-button-color: #fff;
     --label-text-color: #fff;
-    --hero-padding: clamp(120px, calc(120px + 8 * (100vw - 375px) / 1065), 130px);;
+    --hero-padding: clamp(120px, calc(120px + 8 * (100vw - 375px) / 1065), 130px);
     --hero-size: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
     --header-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
     --block-width: clamp(375px, calc(375px + 325 * (100vw - 375px) / 1065), 700px);
