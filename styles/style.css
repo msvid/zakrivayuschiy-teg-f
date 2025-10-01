@@ -17,6 +17,7 @@
   font-variation-settings: 'wdht' var(--text-weight);
   background-image: var(--bg-gradient);
   background-size: 4px 4px, 4px 4px, cover;
+  background-attachment: fixed;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -40,7 +41,7 @@
 }
 
 .accent-font {
-  font-family: var(--accent-font), serif;
+  font-family: var(--accent-font), fantasy;
 }
 
 .header__hero {
@@ -60,7 +61,7 @@
 
 .card_title {
   font-size: var(--main-text-size);
-  font-weight: var(--title-weight);
+  font-variation-settings: 'wght' var(--title-weight);
   padding: 5px 10px 5px;
   border-block-end: 2px solid var(--main-color);
   margin: 0;
@@ -77,7 +78,7 @@
   top: 25px;
   right: 25px;
   font-size: 14px;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
   text-shadow: -1px 0 var(--label-text-color), 
                 0 1px var(--label-text-color), 
                 1px 0 var(--label-text-color), 
@@ -136,7 +137,7 @@
 
 .card_text {
   font-size: var(--main-text-size);
-  font-weight: var(--text-weight);
+  font-variation-settings: 'wght' var(--text-weight);
   margin: 25px;
   line-height: 21px;
 }
@@ -258,7 +259,7 @@
 }
 
 .button__text {
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
   font-size: 14px;
   line-height: 90%;
   position: relative;

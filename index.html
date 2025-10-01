@@ -32,8 +32,9 @@
           Место для ваших воспоминаний о начале обучения.
         </p>
         <div class="card_buttons">
-          <button class="card__icon-button">
-            <svg 
+          <button class="card__icon-button" type="button">
+            <svg
+              aria-hidden="true"
               class="like-icon"
               width="39" 
               height="36" 
@@ -64,8 +65,9 @@
           Место для ваших воспоминаний о начале первого спринта.
         </p>
         <div class="card_buttons">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg 
+              aria-hidden="true"
               class="like-icon"
               width="39" 
               height="36" 
@@ -96,8 +98,9 @@
           Место для ваших воспоминаний об окончании первого спринта.
         </p>
         <div class="card_buttons">
-          <button class="card__icon-button">
-            <svg 
+          <button class="card__icon-button" type="button">
+            <svg
+              aria-hidden="true"
               class="like-icon"
               width="39" 
               height="36" 
@@ -128,8 +131,9 @@
           Место для ваших воспоминаний о начале второго спринта.
         </p>
         <div class="card_buttons">
-          <button class="card__icon-button">
-            <svg 
+          <button class="card__icon-button" type="button">
+            <svg
+              aria-hidden="true" 
               class="like-icon"
               width="39" 
               height="36" 
@@ -160,8 +164,9 @@
           Место для ваших воспоминаний об окончании второго спринта.
         </p>
         <div class="card_buttons">
-          <button class="card__icon-button">
-            <svg 
+          <button class="card__icon-button" type="button">
+            <svg
+              aria-hidden="true" 
               class="like-icon"
               width="39" 
               height="36" 
@@ -192,8 +197,9 @@
           Место для ваших воспоминаний о начале третьего спринта.
         </p>
         <div class="card_buttons">
-          <button class="card__icon-button">
-            <svg 
+          <button class="card__icon-button" type="button">
+            <svg
+              aria-hidden="true" 
               class="like-icon"
               width="39" 
               height="36" 
@@ -224,8 +230,9 @@
           Место для ваших воспоминаний об окончании третьего спринта.
         </p>
         <div class="card_buttons">
-          <button class="card__icon-button">
-            <svg 
+          <button class="card__icon-button" type="button">
+            <svg
+              aria-hidden="true" 
               class="like-icon"
               width="39" 
               height="36" 
@@ -261,8 +268,9 @@
           Место, чтобы остановиться, подумать и написать, что вы чувствуете в этой точке пути.
         </p>
         <div class="card_buttons">
-          <button class="card__icon-button">
-            <svg 
+          <button class="card__icon-button"  type="button">
+            <svg
+              aria-hidden="true" 
               class="like-icon"
               width="39" 
               height="36" 
@@ -282,7 +290,8 @@
       </article>
       <div>
       <button class="save button" type="button" onclick="window['dialog'].showModal()" aria-controls="dialog">
-        <svg 
+        <svg
+          aria-hidden="true" 
           class="save_svg" 
           viewBox="0 0 39 39"
           width="39"
@@ -295,7 +304,8 @@
       </div>
       <dialog id="dialog" class="dialog">
         <div class="dialog-content">
-          <svg 
+          <svg
+            aria-hidden="true" 
             class="save_svg" 
             viewBox="0 0 39 39"
             width="39"
@@ -306,7 +316,7 @@
           <p class="dialog-text button__text">Вставьте дискету, чтобы продолжить</p>
         </div>
         <form method="dialog" class="dialog__footer">
-          <button class="dialog-button button" type="button" onclick="window['dialog'].close()">
+          <button class="dialog-button button" type="submit" onclick="window['dialog'].close()">
             <span class="dialog-text button__text">ок</span>
           </button>
         </form>
