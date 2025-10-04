@@ -267,11 +267,15 @@
   mix-blend-mode: difference;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
 .save {
   display: flex;
   justify-content: center;
   align-items: center;
-  justify-self: center;
   max-inline-size: max-content;
   margin-block-end: 100px;
   gap: 8px;
