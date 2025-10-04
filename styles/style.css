@@ -143,10 +143,10 @@
 }
 
 .card_buttons {
-  justify-self: end;
-  padding: 0 25px 25px 0;
   display: flex;
+  justify-content: flex-end;
   gap: 7px;
+  padding: 0 25px 25px 0;
 }
 
 .card__icon-button {
